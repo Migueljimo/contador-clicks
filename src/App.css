@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body {
+html, 
+body {
   background-color: #1b1b32;
 }
 .app {

@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
 import './App.css';
-import Boton from './componentes/boton';
+import Botons from './componentes/Boton';
+import Contador from './componentes/Contador';
 
 
 function App() {
@@ -23,11 +24,14 @@ function App() {
       </div>
 
       <div className='contenedor-principal'>
-        <Boton 
+
+        <Contador />
+        
+        <Botons 
          texto='Click'
          esBotonDeClick={true}
          manejarClick={manejarClick}  />
-        <Boton
+        <Botons
         texto='Reset'
         esBotonDeClick={false}
         manejarClick={resetContador} />
